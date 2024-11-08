@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:background="#3A3A3A"
+    android:padding="16dp">
+
+    <TextView
+    android:id="@+id/header_title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Добро пожаловать"
+    android:textColor="#FFFFFF"
+    android:textSize="24sp"
+    android:textStyle="bold"
+    android:layout_marginTop="20dp"
+    android:layout_gravity="center" />
+
+    <View
+    android:layout_width="80dp"
+    android:layout_height="2dp"
+    android:background="#FFFFFF"
+    android:layout_gravity="center"
+    android:layout_marginVertical="8dp" />
+
+    <TextView
+    android:id="@+id/nav_header_subtitle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Имя пользователя"
+    android:textColor="#CCCCCC"
+    android:textSize="16sp"
+    android:layout_gravity="center"
+    android:layout_marginTop="8dp" />
+
+    </LinearLayout>
